@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atm Card</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="Atm_Box">
+      <div class="card_box">
+        <h1>VISA</h1>
+        <div class="code"></div>
+        <div class="card_name">
+          <p>Card Holder</p>
+          <h4>Full NAME</h4>
+        </div>
+        <div class="card2">
+          <p>Expires</p>
+          <h4>MM/YY</h4>
+        </div>
+      </div>
+      <div class="Card">
+        <div class="card1">
+          <p>Card Number</p>
+
+          <input type="numbers" id="number" maxlength="12" />
+          <div class="holders"></div>
+          <p>Card Holders</p>
+        </div>
+        <input type="name" id="name" />
+        <div class="Date">
+          <p>Expiration Date CW</p>
+          <select name="  " id=" " class="year-input"></select>
+          <option value="year" selected disabled>year</option>
+        </div>
+        <div class="submit">
+          <button>Submit</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
